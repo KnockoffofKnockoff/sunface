@@ -2,11 +2,9 @@
 from objects import Country
 
 
-def write_country(country: Country) -> str:
-    # returns the tag used
+def country_to_hoiese(country: Country) -> str:
     ...
 
 
-def read_country(tag) -> Country:
-    # returns the read country object
+def hoiese_to_country(hoiese: str) -> Country:
     ...
